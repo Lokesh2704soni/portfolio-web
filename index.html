@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="/">Portfolio</a>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+
+    </header>
+    <!-- HOME PAGE -->
+    <section class="home">
+
+        <!-- Left Content -->
+        <div class="home-text">
+            <h2>I am <span id="changing-text"></span></h2>
+            <p>
+                I am passionate about creating modern websites and web applications.
+                I love coding and building creative projects.
+            </p>
+
+        </div>
+
+        <!-- Right Image -->
+        <div class="home-img">
+            <div class="home-img-wrapper">
+                <div class="circle"></div>
+                <img src="123.jpeg" alt="profile">
+            </div>
+        </div>
+
+    </section>
+    <section id="skills" class="skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar js"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Node.js</p>
+                <div class="progress">
+                    <div class="progress-bar node"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>C</p>
+                <div class="progress">
+                    <div class="progress-bar c"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>C++</p>
+                <div class="progress">
+                    <div class="progress-bar cpp"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Amazon Clone</h3>
+                <p>E-commerce website clone with modern UI similar to Amazon.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/amazon-clone-/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/amazon-clone-">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+             <div class="project-card">
+                <h3>Image Gallery</h3>
+                <p>A responsive image gallery with grid layout, hover effects, and smooth animations.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/photo-galary/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/photo-galary">GitHub</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            
+             <div class="project-card">
+                <h3>Timeloo - Trip Memory Collector</h3>
+                <p>A web app to store and manage travel memories and experiences.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/Timeloo/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/Timeloo">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h3>Stone Paper Scissor</h3>
+                <p>Fun game with random logic and interactive UI.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/stone-paper-scissors-game/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/stone-paper-scissors-game">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            
+            <div class="project-card">
+                <h3>Tic Tac Toe Game</h3>
+                <p>Interactive game built using JavaScript with win logic.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/tic-tac-toe-game/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/tic-tac-toe-game">GitHub</a>
+                </div>
+            </div>
+            <!-- Project 6 -->
+           <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio website showcasing my skills and projects.</p>
+                <div class="buttons">
+                    <a href="https://lokesh2704soni.github.io/portfolio-website/">Live Demo</a>
+                    <a href="https://github.com/Lokesh2704soni/portfolio-website">GitHub</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    </section>
+
+    <section id="contact" class="contact">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-container">
+
+            <!-- Phone -->
+            <div class="contact-card" onclick="contactChoice()">
+                <span>📱</span>
+                <h3>Phone</h3>
+                <p>+91 9257004958</p>
+            </div>
+
+            <!-- Email -->
+            <a href="mailto:lokesh27soni04@email.com" class="contact-card">
+                <span>📧</span>
+                <h3>Email</h3>
+                <p>lokesh27soni04@email.com</p>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/lokesh-soni-583651282?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank" class="contact-card">
+                <span>🔗</span>
+                <h3>LinkedIn</h3>
+                <p>View Profile</p>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/Lokesh2704soni" target="_blank" class="contact-card">
+                <span>💻</span>
+                <h3>GitHub</h3>
+                <p>View Projects</p>
+            </a>
+
+        </div>
+
+        <!-- Popup -->
+        <div id="contact-popup" class="popup">
+            <div class="popup-box">
+                <h3>Choose Option</h3>
+                <p>How do you want to contact?</p>
+
+                <div class="popup-buttons">
+                    <button onclick="makeCall()">📞 Call</button>
+                    <button onclick="openWhatsApp()">💬 WhatsApp</button>
+                </div>
+
+                <span class="close" onclick="closePopup()">✖</span>
+            </div>
+        </div>
+
+        <!-- Resume -->
+        <a href="lokesh-resume.pdf" download class="resume-btn">Download Resume</a>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
