@@ -4,228 +4,1079 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Lokesh Soni - Software Engineer and Full Stack Developer Portfolio">
+
+    <title>Lokesh Soni | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
+
+    <!-- ================= NAVBAR ================= -->
+
     <header class="navbar">
+
         <div class="logo">
-            <a href="/">Portfolio</a>
+            <a href="#home">Lokesh<span>.</span></a>
         </div>
 
-        <nav class="nav-links">
-            <a href="#home">Home</a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
 
+        <button class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
 
     </header>
-    <!-- HOME PAGE -->
-    <section class="home">
 
-        <!-- Left Content -->
-        <div class="home-text">
-            <h2>I am <span id="changing-text"></span></h2>
-            <p>
-                I am passionate about creating modern websites and web applications.
-                I love coding and building creative projects.
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="home">
+
+        <div class="home-text reveal">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>
+                Lokesh <span>Soni</span>
+            </h1>
+
+            <h2>
+                I am a
+                <span id="changing-text"></span>
+                <span class="cursor">|</span>
+            </h2>
+
+            <p class="home-description">
+                I'm a Software Engineer and Frontend Developer who loves
+                building clean, responsive and user-friendly web interfaces.
+                I work with HTML, CSS, JavaScript, Node.js and modern web
+                technologies to create interactive digital experiences.
             </p>
 
+            <div class="home-buttons">
+
+                <a href="#projects" class="primary-btn">
+                    <i class="fas fa-code"></i>
+                    View Projects
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/Lokesh2704soni" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/lokesh-soni-583651282" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:lokesh27soni04@email.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
         </div>
 
-        <!-- Right Image -->
-        <div class="home-img">
+
+        <!-- Profile Image -->
+
+        <div class="home-img reveal">
+
             <div class="home-img-wrapper">
+
                 <div class="circle"></div>
-                <img src="123.jpeg" alt="profile">
-            </div>
-        </div>
+                <div class="circle circle-two"></div>
 
-    </section>
-    <section id="skills" class="skills-section">
+                <img src="123.jpeg" alt="Lokesh Soni">
 
-        <h2 class="section-title">My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill">
-                <p>HTML</p>
-                <div class="progress">
-                    <div class="progress-bar html"></div>
+                <div class="floating-card card-one">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
                 </div>
-            </div>
 
-            <div class="skill">
-                <p>CSS</p>
-                <div class="progress">
-                    <div class="progress-bar css"></div>
+                <div class="floating-card card-two">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
                 </div>
-            </div>
 
-            <div class="skill">
-                <p>JavaScript</p>
-                <div class="progress">
-                    <div class="progress-bar js"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <p>Node.js</p>
-                <div class="progress">
-                    <div class="progress-bar node"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <p>C</p>
-                <div class="progress">
-                    <div class="progress-bar c"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <p>C++</p>
-                <div class="progress">
-                    <div class="progress-bar cpp"></div>
-                </div>
             </div>
 
         </div>
 
     </section>
 
-    <section id="projects" class="projects">
 
-        <h2 class="section-title">My Projects</h2>
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about section">
+
+        <div class="section-heading reveal">
+            <p>Get To Know Me</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card reveal">
+
+                <div class="about-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am a B.Tech Computer Science student and aspiring
+                    Software Engineer with a strong interest in Full Stack
+                    Development and modern web technologies.
+                </p>
+
+                <p>
+                    I enjoy transforming ideas into functional and visually
+                    appealing web applications. I continuously work on
+                    improving my coding skills, problem-solving abilities
+                    and understanding of software development.
+                </p>
+
+            </div>
+
+
+            <div class="about-info reveal">
+
+                <div class="info-item">
+                    <span>Name</span>
+                    <strong>Lokesh Soni</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Role</span>
+                    <strong>Software Engineer</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Specialization</span>
+                    <strong>Frontend / Full Stack</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Education</span>
+                    <strong>B.Tech</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>University</span>
+                    <strong>JECRC University</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Location</span>
+                    <strong>Jaipur, Rajasthan</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills-section section">
+
+        <div class="section-heading reveal">
+            <p>My Skills & Expertise</p>
+            <h2>What I <span>Know</span></h2>
+        </div>
+
+        <div class="skills-accordion">
+
+
+            <!-- TECHNICAL SKILLS -->
+
+            <div class="skill-category reveal">
+
+                <button class="skill-category-header">
+                    <div class="category-left">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <div>
+                            <h3>Technical Skills</h3>
+                            <p>Programming & Development</p>
+                        </div>
+                    </div>
+
+                    <i class="fas fa-chevron-down arrow"></i>
+                </button>
+
+
+                <div class="skill-category-content">
+
+                    <div class="skill-list">
+
+                        <span><i class="fab fa-html5"></i> HTML</span>
+
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+
+                        <span><i class="fab fa-react"></i> React.js</span>
+
+                        <span><i class="fab fa-node-js"></i> Node.js</span>
+
+                        <span><i class="fas fa-server"></i> Express.js</span>
+
+                        <span><i class="fas fa-database"></i> MongoDB</span>
+
+                        <span><i class="fas fa-plug"></i> REST APIs</span>
+
+                        <span><i class="fas fa-file-code"></i> JSON</span>
+
+                        <span><i class="fas fa-mobile-screen"></i> Responsive Design</span>
+
+                        <span><i class="fas fa-cubes"></i> OOP</span>
+
+                        <span><i class="fas fa-diagram-project"></i> DSA</span>
+
+                        <span><i class="fas fa-user-lock"></i> Authentication</span>
+
+                        <span><i class="fas fa-code"></i> C</span>
+
+                        <span><i class="fas fa-code"></i> C++</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- TECH TOOLS -->
+
+            <div class="skill-category reveal">
+
+                <button class="skill-category-header">
+
+                    <div class="category-left">
+
+                        <div class="category-icon">
+                            <i class="fas fa-screwdriver-wrench"></i>
+                        </div>
+
+                        <div>
+                            <h3>Tech Tools</h3>
+                            <p>Development & Productivity Tools</p>
+                        </div>
+
+                    </div>
+
+                    <i class="fas fa-chevron-down arrow"></i>
+
+                </button>
+
+
+                <div class="skill-category-content">
+
+                    <div class="skill-list">
+
+                        <span>
+                            <i class="fas fa-code"></i>
+                            VS Code
+                        </span>
+
+                        <span>
+                            <i class="fab fa-git-alt"></i>
+                            Git
+                        </span>
+
+                        <span>
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </span>
+
+                        <span>
+                            <i class="fab fa-npm"></i>
+                            npm
+                        </span>
+
+                        <span>
+                            <i class="fas fa-paper-plane"></i>
+                            Postman
+                        </span>
+
+                        <span>
+                            <i class="fas fa-database"></i>
+                            MongoDB Compass
+                        </span>
+
+                        <span>
+                            <i class="fas fa-terminal"></i>
+                            Terminal
+                        </span>
+
+                        <span>
+                            <i class="fab fa-github"></i>
+                            GitHub Pages
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AI TOOLS -->
+
+            <div class="skill-category reveal">
+
+                <button class="skill-category-header">
+
+                    <div class="category-left">
+
+                        <div class="category-icon ai-category">
+                            <i class="fas fa-robot"></i>
+                        </div>
+
+                        <div>
+                            <h3>AI Tools</h3>
+                            <p>AI & AI-assisted Development</p>
+                        </div>
+
+                    </div>
+
+                    <i class="fas fa-chevron-down arrow"></i>
+
+                </button>
+
+
+                <div class="skill-category-content">
+
+                    <div class="skill-list">
+
+                        <span class="ai-skill">
+                            <i class="fas fa-robot"></i>
+                            ChatGPT
+                        </span>
+
+                        <span class="ai-skill">
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                            Gemini
+                        </span>
+
+                        <span class="ai-skill">
+                            <i class="fas fa-code"></i>
+                            GitHub Copilot
+                        </span>
+
+                        <span class="ai-skill">
+                            <i class="fas fa-lightbulb"></i>
+                            Prompt Engineering
+                        </span>
+
+                        <span class="ai-skill">
+                            <i class="fas fa-brain"></i>
+                            AI-assisted Coding
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SOFT SKILLS -->
+
+            <div class="skill-category reveal">
+
+                <button class="skill-category-header">
+
+                    <div class="category-left">
+
+                        <div class="category-icon soft-category">
+                            <i class="fas fa-user-group"></i>
+                        </div>
+
+                        <div>
+                            <h3>Soft Skills</h3>
+                            <p>Professional & Personal Skills</p>
+                        </div>
+
+                    </div>
+
+                    <i class="fas fa-chevron-down arrow"></i>
+
+                </button>
+
+
+                <div class="skill-category-content">
+
+                    <div class="skill-list">
+
+                        <span class="soft-skill">
+                            <i class="fas fa-comments"></i>
+                            Communication
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-users"></i>
+                            Teamwork
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-puzzle-piece"></i>
+                            Problem Solving
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-lightbulb"></i>
+                            Critical Thinking
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-clock"></i>
+                            Time Management
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-arrows-rotate"></i>
+                            Adaptability
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-user-tie"></i>
+                            Leadership
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-book-open"></i>
+                            Continuous Learning
+                        </span>
+
+                        <span class="soft-skill">
+                            <i class="fas fa-person-chalkboard"></i>
+                            Presentation Skills
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects section">
+
+        <div class="section-heading reveal">
+            <p>My Recent Work</p>
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+
 
         <div class="project-container">
 
+
             <!-- Project 1 -->
-            <div class="project-card">
-                <h3>Amazon Clone</h3>
-                <p>E-commerce website clone with modern UI similar to Amazon.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/amazon-clone-/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/amazon-clone-">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+                    <img src="images/amazon.png" alt="Amazon Clone">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/amazon-clone-/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">01</span>
+
+                    <h3>Amazon Clone</h3>
+
+                    <p>
+                        E-commerce website clone with a modern UI inspired
+                        by Amazon.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/amzon-clone/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/amzon-clone" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
+
 
             <!-- Project 2 -->
-             <div class="project-card">
-                <h3>Image Gallery</h3>
-                <p>A responsive image gallery with grid layout, hover effects, and smooth animations.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/photo-galary/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/photo-galary">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="images/gallery.png" alt="Image Gallery">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/photo-galary/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">02</span>
+
+                    <h3>Image Gallery</h3>
+
+                    <p>
+                        Responsive image gallery with grid layout,
+                        hover effects and smooth animations.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/photo-galary/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/photo-galary" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
             <!-- Project 3 -->
-            
-             <div class="project-card">
-                <h3>Timeloo - Trip Memory Collector</h3>
-                <p>A web app to store and manage travel memories and experiences.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/Timeloo/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/Timeloo">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="images/timeloo.png" alt="Timeloo Trip Memory Collector">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/Timeloo/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">03</span>
+
+                    <h3>Timeloo</h3>
+
+                    <p>
+                        A travel memory collector designed to store
+                        and manage travel memories and experiences.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/Timeloo/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/Timeloo" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
+
 
             <!-- Project 4 -->
-            <div class="project-card">
-                <h3>Stone Paper Scissor</h3>
-                <p>Fun game with random logic and interactive UI.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/stone-paper-scissors-game/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/stone-paper-scissors-game">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="images/stone-paper.png" alt="Stone Paper Scissor">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/stone-paper-scissors-game/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">04</span>
+
+                    <h3>Stone Paper Scissor</h3>
+
+                    <p>
+                        Interactive browser game with random game
+                        logic and responsive UI.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/stone-paper-scissors-game/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/stone-paper-scissors-game" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
 
+
             <!-- Project 5 -->
-            
-            <div class="project-card">
-                <h3>Tic Tac Toe Game</h3>
-                <p>Interactive game built using JavaScript with win logic.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/tic-tac-toe-game/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/tic-tac-toe-game">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="images/tic-tac-toe.png" alt="Tic Tac Toe Game">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/tic-tac-toe-game/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">05</span>
+
+                    <h3>Tic Tac Toe</h3>
+
+                    <p>
+                        Interactive JavaScript game with winning
+                        conditions and game logic.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/tic-tac-toe-game/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/tic-tac-toe-game" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
             <!-- Project 6 -->
-           <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>Personal portfolio website showcasing my skills and projects.</p>
-                <div class="buttons">
-                    <a href="https://lokesh2704soni.github.io/portfolio-website/">Live Demo</a>
-                    <a href="https://github.com/Lokesh2704soni/portfolio-website">GitHub</a>
+
+            <div class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="images/portfolio.png" alt="Portfolio Website">
+
+                    <div class="project-overlay">
+                        <a href="https://lokesh2704soni.github.io/portfolio-website/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
                 </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">06</span>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        Personal portfolio website showcasing my
+                        skills, projects and development journey.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="https://lokesh2704soni.github.io/portfolio-website/" target="_blank">
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/Lokesh2704soni/portfolio-website" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
+
+            <!-- Project 7 -->
+<div class="project-card reveal">
+
+    <div class="project-image">
+        <img src="images/shopzone.png" alt="ShopZone E-Commerce Website">
+
+        <div class="project-overlay">
+            <a href="https://shop-zone-1oe674grb-lokesh-soni1.vercel.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-number">07</span>
+
+        <h3>ShopZone</h3>
+
+        <p>
+            A modern e-commerce web application designed to provide
+            a smooth online shopping experience with a clean and
+            responsive user interface.
+        </p>
+
+        <div class="project-tech">
+            <span>E-Commerce</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="buttons">
+
+            <a href="https://shop-zone-khaki.vercel.app/" target="_blank">
+                Live Demo
+            </a>
+
+            <a href="https://github.com/Lokesh2704soni/ShopZone" target="_blank">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Project 8 -->
+<div class="project-card reveal">
+
+    <div class="project-image">
+        <img src="images/abfitness.png" alt="ABFitness Gym Website">
+
+        <div class="project-overlay">
+            <a href="https://github.com/Lokesh2704soni/GYM-Web" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-number">08</span>
+
+        <h3>ABFitness</h3>
+
+        <p>
+            A modern and responsive gym website designed to showcase
+            fitness services, workout programs, and gym-related
+            information with an engaging user interface.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+        </div>
+
+        <div class="buttons">
+
+            <a href="https://github.com/Lokesh2704soni/GYM-Web" target="_blank">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
         </div>
 
     </section>
-    </section>
 
-    <section id="contact" class="contact">
 
-        <h2 class="section-title">Get In Touch</h2>
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact section">
+
+        <div class="section-heading reveal">
+
+            <p>Let's Connect</p>
+
+            <h2>Get In <span>Touch</span></h2>
+
+        </div>
+
 
         <div class="contact-container">
 
+
             <!-- Phone -->
-            <div class="contact-card" onclick="contactChoice()">
-                <span>📱</span>
-                <h3>Phone</h3>
-                <p>+91 9257004958</p>
-            </div>
 
-            <!-- Email -->
-            <a href="mailto:lokesh27soni04@email.com" class="contact-card">
-                <span>📧</span>
-                <h3>Email</h3>
-                <p>lokesh27soni04@email.com</p>
-            </a>
+            <div class="contact-card reveal" onclick="contactChoice()">
 
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/lokesh-soni-583651282?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-                target="_blank" class="contact-card">
-                <span>🔗</span>
-                <h3>LinkedIn</h3>
-                <p>View Profile</p>
-            </a>
-
-            <!-- GitHub -->
-            <a href="https://github.com/Lokesh2704soni" target="_blank" class="contact-card">
-                <span>💻</span>
-                <h3>GitHub</h3>
-                <p>View Projects</p>
-            </a>
-
-        </div>
-
-        <!-- Popup -->
-        <div id="contact-popup" class="popup">
-            <div class="popup-box">
-                <h3>Choose Option</h3>
-                <p>How do you want to contact?</p>
-
-                <div class="popup-buttons">
-                    <button onclick="makeCall()">📞 Call</button>
-                    <button onclick="openWhatsApp()">💬 WhatsApp</button>
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
                 </div>
 
-                <span class="close" onclick="closePopup()">✖</span>
+                <h3>Phone</h3>
+
+                <p>+91 9257004958</p>
+
             </div>
+
+
+            <!-- Email -->
+
+            <a href="mailto:lokesh27soni04@email.com" class="contact-card reveal">
+
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <h3>Email</h3>
+
+                <p>Send Email</p>
+
+            </a>
+
+
+            <!-- LinkedIn -->
+
+            <a href="https://www.linkedin.com/in/lokesh-soni-583651282" target="_blank" class="contact-card reveal">
+
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+
+                <h3>LinkedIn</h3>
+
+                <p>View Profile</p>
+
+            </a>
+
+
+            <!-- GitHub -->
+
+            <a href="https://github.com/Lokesh2704soni" target="_blank" class="contact-card reveal">
+
+                <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+
+                <h3>GitHub</h3>
+
+                <p>View Projects</p>
+
+            </a>
+
+
+            <!-- Location -->
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Jaipur,Rajasthan" target="_blank"
+                class="contact-card reveal">
+
+                <div class="contact-icon">
+                    <i class="fas fa-location-dot"></i>
+                </div>
+
+                <h3>Location</h3>
+
+                <p>Jaipur, Rajasthan</p>
+
+            </a>
+
         </div>
 
+
         <!-- Resume -->
-        <a href="lokesh-resume.pdf" download class="resume-btn">Download Resume</a>
+
+        <div class="resume-container reveal">
+
+            <p>Interested in working together?</p>
+
+            <a href="lokesh-resume.pdf" download class="resume-btn">
+
+                <i class="fas fa-download"></i>
+                Download Resume
+
+            </a>
+
+        </div>
+
+
+        <!-- Phone Popup -->
+
+        <div id="contact-popup" class="popup">
+
+            <div class="popup-box">
+
+                <button class="close" onclick="closePopup()">
+                    <i class="fas fa-xmark"></i>
+                </button>
+
+                <div class="popup-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+
+                <h3>Contact Me</h3>
+
+                <p>How would you like to contact me?</p>
+
+                <div class="popup-buttons">
+
+                    <button onclick="makeCall()">
+                        <i class="fas fa-phone"></i>
+                        Call
+                    </button>
+
+                    <button onclick="openWhatsApp()">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © <span id="year"></span> Lokesh Soni.
+            All Rights Reserved.
+        </p>
+
+        <div class="footer-social">
+
+            <a href="https://github.com/Lokesh2704soni" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/lokesh-soni-583651282" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
     <script src="script.js"></script>
+
 </body>
 
 </html>
